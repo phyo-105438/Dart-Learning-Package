@@ -24,5 +24,26 @@ void main(){
   print(a ~/ b);//return int value
   print(-(a+b));
 
+  //Operator
+  print(name != "Hello");
+  print(a>b);
+  print(a<b);
+  print(a>=b);
+  print(a<=b);
+
+  //String
+  String str = "Hello Ezzie";
+  print(str.length);
+  print(str.trim());
+  print(str.codeUnits);
+  print(str.toLowerCase());
+  print(str.toUpperCase());
+  print(str.startsWith("H"));
+  print(str.endsWith("e"));
+
+  //String Interpolation
+  String n3 = "Ezzie";
+  print("The length is : ${n3.length}");
+
 
 }
