@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 void main(){
   String name = "Ezzie";
   String name2 = "Ezekiel";
@@ -10,5 +12,17 @@ void main(){
   print(numAny);
   print(n.isEven);
   print(n1.sign);
+  print(n1.ceil());
+
+  int a = 20;
+  int b = 10;
+  double c = 2.5;
+  print(a + b);
+  print(a - b);
+  print (a * b);
+  print(a / b);// return double value
+  print(a ~/ b);//return int value
+  print(-(a+b));
+
 
 }
