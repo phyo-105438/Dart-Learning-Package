@@ -1,4 +1,5 @@
 void main(){
-  var greeting = "Hello Dart";
-  print(greeting);
+  String name = "Ezzie";
+  String name2 = "Ezekiel";
+  print(name);
 }
