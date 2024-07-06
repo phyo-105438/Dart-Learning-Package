@@ -45,5 +45,23 @@ void main(){
   String n3 = "Ezzie";
   print("The length is : ${n3.length}");
 
+  //Boolean
+  bool isGreater = 4 > 3;
+  print(isGreater);
 
+  //List
+  List list = [1,2,3,4,5,6 ,"hello"];
+  List<int> intList = [2,5,7,3,5,7];
+  intList.add(10);
+  intList.add(11);
+  print(intList);
+ var reversedInt = intList.reversed.toList();
+  print(reversedInt);
+  //Retrieve only int
+ var mapList =  list.map((e){
+    if(e is int){
+      return e * 2;
+    } return e;
+  }).toList();
+    print(mapList);
 }
